@@ -9,7 +9,7 @@ sms_gateway = '3305878309@vtext.com'
 # The server we use to send emails in our case it will be gmail but every email provider has a different smtp
 # and port is also provided by the email provider.
 smtp = "smtp.gmail.com"
-port = 587
+port = 22
 # This will start our email server
 server = smtplib.SMTP(smtp,port)
 # Starting the server
